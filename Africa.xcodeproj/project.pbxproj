@@ -46,6 +46,7 @@
 		80F2C2B2297005FE004356EE /* zebra.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 80F2C26B296FDCB8004356EE /* zebra.mp4 */; };
 		80F2C2B42970073F004356EE /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C2B32970073F004356EE /* LocationModel.swift */; };
 		80F2C2B629700A19004356EE /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C2B529700A19004356EE /* MapAnnotationView.swift */; };
+		80F2C2B829700E11004356EE /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C2B729700E11004356EE /* MotionAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +91,7 @@
 		80F2C2A729700071004356EE /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
 		80F2C2B32970073F004356EE /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		80F2C2B529700A19004356EE /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
+		80F2C2B729700E11004356EE /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +201,7 @@
 				80F2C2A2296FF8C8004356EE /* VideoListItemView.swift */,
 				80F2C2A4296FFFA9004356EE /* VideoPlayerView.swift */,
 				80F2C2B529700A19004356EE /* MapAnnotationView.swift */,
+				80F2C2B729700E11004356EE /* MotionAnimationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				80F2C299296FF089004356EE /* InsetGalleryView.swift in Sources */,
 				80F2C2A3296FF8C8004356EE /* VideoListItemView.swift in Sources */,
 				80F2C28F296FE4CA004356EE /* CodableBundleExtension.swift in Sources */,
+				80F2C2B829700E11004356EE /* MotionAnimationView.swift in Sources */,
 				80F2C297296FEF69004356EE /* HeadingView.swift in Sources */,
 				80F2C2A5296FFFA9004356EE /* VideoPlayerView.swift in Sources */,
 			);
