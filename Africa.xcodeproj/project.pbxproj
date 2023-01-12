@@ -29,6 +29,7 @@
 		80F2C299296FF089004356EE /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C298296FF089004356EE /* InsetGalleryView.swift */; };
 		80F2C29B296FF2A6004356EE /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C29A296FF2A6004356EE /* InsetFactView.swift */; };
 		80F2C29D296FF463004356EE /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C29C296FF463004356EE /* InsetMapView.swift */; };
+		80F2C29F296FF65A004356EE /* ExternalWeblinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C29E296FF65A004356EE /* ExternalWeblinkView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		80F2C298296FF089004356EE /* InsetGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryView.swift; sourceTree = "<group>"; };
 		80F2C29A296FF2A6004356EE /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
 		80F2C29C296FF463004356EE /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
+		80F2C29E296FF65A004356EE /* ExternalWeblinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWeblinkView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 				80F2C298296FF089004356EE /* InsetGalleryView.swift */,
 				80F2C29A296FF2A6004356EE /* InsetFactView.swift */,
 				80F2C29C296FF463004356EE /* InsetMapView.swift */,
+				80F2C29E296FF65A004356EE /* ExternalWeblinkView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80F2C29F296FF65A004356EE /* ExternalWeblinkView.swift in Sources */,
 				80F2C25C296FDB8F004356EE /* ContentView.swift in Sources */,
 				80F2C291296FE7D6004356EE /* AnimalListItemView.swift in Sources */,
 				80F2C284296FDF7E004356EE /* MainView.swift in Sources */,
