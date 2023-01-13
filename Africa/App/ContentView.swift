@@ -15,7 +15,7 @@ struct ContentView: View {
     @State private var isGridViewActive: Bool = false
     
     //default 2 grid
-//    let gridLayout: [GridItem] = Array(repeating: GridItem(.flexible()), count: 2)
+    //let gridLayout: [GridItem] = Array(repeating: GridItem(.flexible()), count: 2)
     
     //default initial grid as 1 grid
     @State private var gridLayout: [GridItem] = [GridItem(.flexible())]
