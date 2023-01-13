@@ -31,6 +31,16 @@ struct ContentView: View {
         // 3 % 3 = 0 + 1 = 1
         gridLayout = Array(repeating: .init(.flexible()), count: gridLayout.count % 3 + 1 )
         gridColumn = gridLayout.count
+    
+        //TOOLBAR IMAGE
+        switch gridColumn {
+        case 2:
+            toolbarIcon = "square.grid.3x2"
+        case 3:
+            toolbarIcon = "rectangle.grid.1x2"
+        default:
+            toolbarIcon = "square.grid.2x2"
+        }
     }
     
     //MARK: - BODY
@@ -61,7 +71,8 @@ struct ContentView: View {
                             }//: ForEachLoop
                         }//: LazyVGrid
                         .padding(10)
-                        .animation(.easeIn)
+                        .animation(.easeIn, value: gridColumn)
+//                        .animation(.easeIn)
                     }//: ScrollView
                 }//: IF Else
             } //: Group
@@ -84,8 +95,9 @@ struct ContentView: View {
                         Button(action: {
                             isGridViewActive = true
                             haptics.impactOccurred()
+                            gridSwitch()
                         }) {
-                            Image(systemName: "square.grid.2x2")
+                            Image(systemName: toolbarIcon)
                                 .font(.title2)
                                 .foregroundColor(isGridViewActive ? .accentColor : .primary)
                         }
